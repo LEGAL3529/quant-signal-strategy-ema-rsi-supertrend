@@ -1,25 +1,48 @@
-# 📈 Quant Strategy Project #1 — EMA + RSI + Supertrend
 
-## 🔍 Описание
+# 📈 Quant Signal Strategy: EMA + RSI + Supertrend
 
-В этом проекте реализован простой алгоритм генерации торговых сигналов с использованием трёх индикаторов:
-- 📏 EMA (экспоненциальная скользящая)
-- 💪 RSI (индекс относительной силы)
-- 💡 Supertrend
+![Trading Signals Plot](signal_plot.png)
 
-Сигналы: **BUY**, **SELL**, **HOLD**
+## 🧠 Overview
 
-## 🧠 Логика стратегии
+This project is a **Quantitative Trading Signal Generator** using:
+- **Exponential Moving Average (EMA)**
+- **Relative Strength Index (RSI)**
+- **Supertrend**
 
-- BUY: RSI < 30 и цена выше Supertrend и выше EMA
-- SELL: RSI > 70 и цена ниже Supertrend и ниже EMA
-- Иначе — HOLD
+The goal is to combine these popular indicators into a simple **Buy / Sell / Hold** signal engine in Python.  
+This is **Project 1 of a 5-part quant portfolio** series by **Opticode**.
 
-## 🛠️ Как запустить
+---
+
+## 📂 Files Included
+
+| File | Description |
+|------|-------------|
+| `strategy.py` | Core logic for combining indicators and generating trading signals |
+| `indicators.py` | Functions to compute EMA, RSI, and Supertrend |
+| `signals.py` | Unified signal decision engine |
+| `plot_signals.py` | Plots price with BUY/SELL markers |
+| `test_signals.py` | Prints signal (BUY/SELL/HOLD) from current data |
+| `sample_data.csv` | Raw price data used for testing |
+| `signal_plot.png` | Visualization of signals on price chart |
+
+---
+
+## 🚀 How to Run
 
 ```bash
-# Проверка сигнала:
+# Run the test script to see the current signal
 python test_signals.py
 
-# Построение графика:
+# Plot the signal chart
 python plot_signals.py
+```
+
+---
+
+## 📌 Author
+
+**Opticode** – aspiring quant & Python developer.  
+[GitHub Portfolio](https://github.com/LEGAL3529)
+
