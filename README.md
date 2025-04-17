@@ -1,4 +1,4 @@
-![Preview] (https://github.com/LEGAL3529/quant-signal-strategy-ema-rsi-supertrend/blob/main/image.png)
+![Preview](https://github.com/LEGAL3529/quant-signal-strategy-ema-rsi-supertrend/blob/main/image.png?raw=true)
 
 # 📈 Quant Signal Strategy: EMA + RSI + Supertrend
 
